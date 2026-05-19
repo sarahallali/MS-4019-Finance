@@ -1,0 +1,32 @@
+```
+Contoso Finance Audit Readiness Checklist (Demo Only),,,,,,,,,  
+All content is fictional for training/demo purposes.,,,,,,,,,  
+Category,Control / Task ID,Control / Task Description,Owner,Frequency,Priority,Status,Evidence / Artifact,Last Reviewed Date,Notes  
+Financial Reporting,FR-01,Monthly close financial statements reconciled and reviewed,Accounting,Monthly,High,Complete,General Ledger Reconciliation,2024-05-01,All accounts balanced  
+Financial Reporting,FR-02,Quarterly financial statements drafted & CFO sign-off,FP&A,Quarterly,High,In Progress,Draft Q1 2024 Financials,2024-04-10,CFO feedback pending final adjustments  
+Financial Reporting,FR-03,Reconcile intercompany transactions,Accounting,Monthly,Medium,In Progress,Intercompany Recon Report,2024-04-30,Intra-month entries integrated  
+Financial Reporting,FR-04,Review revenue recognition compliance (ASC 606 alignment),FP&A,Quarterly,Medium,Not Started,Revenue Recon Checklist,2024-03-15,To begin after Q2 closings  
+Financial Reporting,FR-05,Variance analysis (actual vs budget) completed monthly,FP&A,Monthly,High,Complete,Variance Report March 2024,2024-03-31,No major unexpected variances  
+Financial Reporting,FR-06,Significant accounting policy changes reviewed and approved,Accounting,Ad-hoc,Low,Complete,Policy Change Log,2024-02-12,No changes needed beyond Q1  
+Internal Controls,IC-01,Perform SOX Section 404 control self-assessment,Internal Audit,Annual,High,In Progress,SOX Controls Test Results,2024-02-20,Half of controls tested as of last review  
+Internal Controls,IC-02,Update and review risk control matrix (RCM),Internal Audit,Annual,Medium,Complete,Contoso RCM 2024 Update,2023-12-15,Ready for upcoming audit  
+Internal Controls,IC-03,User access reviews for finance systems (segregation of duties),IT,Quarterly,High,Complete,Access Review Log Q1 2024,2024-04-05,No exceptions noted in Q1  
+Internal Controls,IC-04,Investigate any unusual journal entries flagged,Accounting,Monthly,High,In Progress,Journal Entry Exception Report,2024-04-20,2 entries flagged; awaiting review  
+Internal Controls,IC-05,Monitor expense approvals for compliance with thresholds,Finance Ops,Monthly,Medium,In Progress,Expense Approval Oversight Log,2024-04-18,Analysis flagged 1 potential issue  
+Internal Controls,IC-06,Review delegation of authority (DOA) changes,Finance Ops,Annual,Medium,Not Started,DOA Change Log,2024-01-05,Next review scheduled Q3  
+Compliance & Governance,CG-01,"Confirm compliance with key financial regulations (SOX, etc.)",Internal Audit,Annual,High,In Progress,Compliance Checklist 2024,2024-03-30,Working through final section  
+Compliance & Governance,CG-02,Conduct internal walkthrough of financial controls,Internal Audit,Annual,Medium,Not Started,Audit Walkthrough Notes,2024-06-01,Planned for Q3 (prep stage)  
+Compliance & Governance,CG-03,Review and update finance compliance policies,Finance Ops,Annual,Medium,Complete,Updated Financial Compliance Policy,2023-10-01,Approved by CFO  
+Compliance & Governance,CG-04,Confirm alignment with new regulatory updates (if any),Internal Audit,Ad-hoc,Low,Complete,N/A,2024-03-01,"No new updates in Q1 (n/a)"  
+Compliance & Governance,CG-05,Simulate a compliance incident response drill,Finance Ops,Annual,Low,Not Started,Drill Plan Document,2024-06-01,Scheduled next quarter  
+IT & Data,IT-01,Backup financial systems and confirm data integrity,IT,Monthly,High,Complete,Backup Logs April 2024,2024-04-28,"Backup success, tested restore Q1"  
+IT & Data,IT-02,Verify financial system security patches applied,IT,Monthly,High,In Progress,Patch Deployment Report,2024-05-05,Critical patch pending reload  
+IT & Data,IT-03,Test financial system access permissions,IT,Annual,Medium,Not Started,Access Test Plan,2023-09-30,Next test scheduled Q2 2024  
+IT & Data,IT-04,Verify financial data encryption at rest is enabled,IT,Annual,Medium,Complete,Encryption Settings Snapshot,2023-11-20,In compliance  
+IT & Data,IT-05,Test disaster recovery for financial systems,IT,Annual,High,In Progress,DR Test Report,2024-04-20,Backup restore time meets SLA  
+Documentation & Retention,DR-01,Archive prior year financial records (per retention policy),Finance Ops,Annual,Medium,Complete,2023 Finance Archive Confirmation,2024-01-10,200GB archived in cloud storage  
+Documentation & Retention,DR-02,Verify all audit evidence from last audit is retained,Finance Ops,Annual,Medium,Complete,Audit 2023 Evidence File Register,2024-02-01,All evidence stored per policy  
+Documentation & Retention,DR-03,Prepare PBC (Provided-By-Client) list for upcoming audit,Internal Audit,Annual,High,Not Started,PBC 2024 Master List,2024-06-01,Pending Q4 finalization  
+Documentation & Retention,DR-04,Ensure mandated record retention periods adhered,Finance Ops,Quarterly,Medium,In Progress,Records Retention Compliance Log,2024-04-15,"In progress; on track"  
+Documentation & Retention,DR-05,Provide updated financial documentation per auditor requests,Finance Ops,Ad-hoc,High,Not Started,Auditor Queries Tracker,2024-05-15,To compile Q2 responses  
+```
