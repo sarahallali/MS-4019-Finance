@@ -10,7 +10,7 @@
 
 **Before you begin this exercise, ensure you have access to:**
 
-* **Microsoft 365 Copilot (Chat)** – with **prebuilt Researcher and Analyst agents** enabled. [\[github.com\]](https://github.com/PayalGuruprasad/MS-4019-executive-persona/blob/main/README.md)
+* **Microsoft 365 Copilot (Chat)** – with **prebuilt Researcher and Analyst agents** enabled.
 * **Microsoft Copilot Studio** – to create a custom Copilot chat agent.
 * **Sample data files** (provided under the `assets` folder) either uploaded into your OneDrive or attached in the Copilot Chat as needed:
   * *LastYear\_Finances.xlsx* 
@@ -44,7 +44,7 @@ Use the **Researcher** agent to gather **external industry context** relevant to
    Our finance team is updating the 2024 budget. Research current industry trends affecting budgeting (inflation, interest rates) and recent market forecasts for our sector, and compile a summary. Use web sources and present 3 key trends with brief commentary and citations.
    ```
 
-4. **Observe the Response:** The Researcher agent should return a summary of **3 current macro-level trends** (e.g., inflation rates, interest rate changes, economic forecasts) relevant to budgeting, each with a brief explanation and source citations【5005†L13-L21】. *(If prompted to narrow the search focus by industry, region, or sources, provide appropriate input and continue.)*
+4. **Observe the Response:** The Researcher agent should return a summary of **3 current macro-level trends** (e.g., inflation rates, interest rate changes, economic forecasts) relevant to budgeting, each with a brief explanation and source citations. *(If prompted to narrow the search focus by industry, region, or sources, provide appropriate input and continue.)*
 
 ### Exercise 2 — Refine Insights for Budget Impact (Researcher Agent, Follow-up)
 
@@ -119,7 +119,7 @@ Use **Copilot Agent Builder** to create a custom **“BudgetBuddy”** agent tha
    **Agent Instructions:**
 
    ```text
-   You are a Budget Planning Assistant named "BudgetBuddy" for [CompanyName]. You help the finance team by answering questions about budgeting timelines, guidelines, and best practices based on provided company documentation. 
+   You are a Budget Planning Assistant named "BudgetBuddy" for CompanyName]. You help the finance team by answering questions about budgeting timelines, guidelines, and best practices based on provided company documentation. 
    - Provide clear, concise answers focused on budgeting and forecasting. 
    - If you don’t have information in your provided sources, say so and suggest who or where to ask.
    - Always base your answers on the official Budgeting Guidelines document.
