@@ -159,6 +159,148 @@ Test the newly created **BudgetBuddy** agent in **Copilot Chat** by asking it a 
 
 ***
 
+### Exercise 7 — Advanced Financial Analysis with Copilot in Excel (Excel Agent)
+
+Use **Copilot in Excel** to perform advanced financial analysis and modeling directly within the spreadsheet. In this exercise, you will analyze historical financial data and generate insights using natural language prompts.
+
+**Steps:**
+
+1. Open **Excel (Desktop or Web)** and load the dataset:
+   * Use **lastyear_finance.csv** from the repository.
+   * Ensure the data is formatted as a table (you can use Ctrl+T or ask Copilot to convert it).
+
+   *Note:* Copilot works best with structured tables with clear headers.
+
+2. Open the **Copilot pane**:
+   * In **Excel Desktop**: Click the **Copilot** button in the Home ribbon.
+   * In **Excel for the web**: Click the **Copilot** button (Chat experience).
+
+3. Ask Copilot to analyze financial performance by department.
+
+   **Prompt:**
+   ```
+   Calculate total Actual vs Budget by Department and identify which department has the highest variance.
+   ```
+
+   **Observe the Response:** Copilot aggregates the data across all months, calculates totals per department, and identifies the department with the largest variance. The response highlights key drivers of overspending or underperformance, helping you quickly pinpoint problem areas.
+
+4. Ask Copilot to identify trends over time.
+
+   **Prompt:**
+   ```
+   Analyze the monthly trend for Actual vs Budget and describe any consistent patterns or anomalies.
+   ```
+
+   **Observe the Response:** Copilot identifies trends such as steady growth in revenue, recurring overspend patterns, or deviations in specific months. This demonstrates how Copilot moves beyond calculations to provide analytical insights.
+
+5. Generate a visualization to support the analysis.
+
+   **Prompt:**
+   ```
+   Create a chart showing Actual vs Budget by month for the full year.
+   ```
+
+   **Observe the Response:** Copilot generates a chart comparing actual and budget values across months.  
+   * In **Excel Desktop (Agent mode)**: the chart may be inserted automatically.  
+   * In **Excel Web**: you may need to confirm the insertion.
+
+6. Validate calculations using Copilot.
+
+   **Prompt:**
+   ```
+   Explain how the variance is calculated in this dataset and verify if the formula is correct.
+   ```
+
+   **Observe the Response:** Copilot explains the formula logic (Actual minus Budget) and checks for consistency across rows. This step shows how Copilot can be used not only for analysis, but also for **validation and audit of calculations**.
+
+7. (Optional) Run a simple what-if simulation.
+
+   **Prompt:**
+   ```
+   If Marketing expenses were reduced by 10% across all months, what would be the new total variance?
+   ```
+
+   **Observe the Response:** Copilot simulates the scenario by adjusting values and recalculating totals, helping you evaluate the potential financial impact of decisions.
+
+**Outcome:**  
+You used Copilot in Excel to:
+- Aggregate and analyze financial data
+- Identify key variances and trends
+- Generate charts automatically
+- Validate formulas and calculations
+- Perform basic scenario modeling
+
+This demonstrates how Copilot can act as a **financial analyst assistant directly inside Excel**.
+
+---
+
+### Exercise 8 — Data Cleanup & Executive Insights with Copilot in Excel
+
+Use **Copilot in Excel** to clean, structure, and summarize financial data into insights that are ready for business stakeholders.
+
+**Steps:**
+
+1. Open **Excel (Desktop or Web)** and load the dataset:
+   * Use **Q1_Budget_vs_Actual.csv** from the repository.
+   * Ensure the dataset is formatted as an Excel table.
+
+2. Open the **Copilot pane** from the ribbon.
+
+3. Use Copilot to clean and standardize the dataset.
+
+   **Prompt:**
+   ```
+   Format the Budget and Actual columns as currency and ensure the data is properly structured as a table.
+   ```
+
+   **Observe the Response:** Copilot applies formatting and may suggest improvements such as converting the data range into a structured table or correcting formatting inconsistencies.
+
+4. Improve readability and structure.
+
+   **Prompt:**
+   ```
+   Organize the data to make it easier to compare Budget vs Actual by department.
+   ```
+
+   **Observe the Response:** Copilot may suggest sorting, grouping, or restructuring the dataset to make analysis clearer (for example, reordering columns or highlighting relevant fields).
+
+5. Ask Copilot to identify key financial insights.
+
+   **Prompt:**
+   ```
+   Identify the departments with the largest budget variances and summarize the key findings.
+   ```
+
+   **Observe the Response:** Copilot highlights the most significant deviations between budget and actual values, helping you quickly understand where performance differs from expectations.
+
+6. Generate an executive summary.
+
+   **Prompt:**
+   ```
+   Write a short executive summary of Q1 performance based on this data, highlighting major variances and overall performance.
+   ```
+
+   **Observe the Response:** Copilot produces a concise, business-friendly summary describing performance across departments. The output is suitable for sharing with stakeholders or including in reports.
+
+7. Refine the summary for leadership.
+
+   **Prompt:**
+   ```
+   Simplify this into three key bullet points for senior leadership.
+   ```
+
+   **Observe the Response:** Copilot restructures the output into a clear, concise format focused on decision-makers, demonstrating how it can transform raw analysis into impactful communication.
+
+**Outcome:**  
+You used Copilot in Excel to:
+- Clean and structure financial data
+- Improve dataset usability
+- Identify key business insights
+- Generate executive-ready summaries
+
+This highlights how Copilot enables finance professionals to move from **raw data → clean data → actionable insights → executive communication** in minutes.
+
+
 ## **Additional Scenario Examples (Optional)**
 
 After completing the primary **budget planning & forecasting** scenario above, you may explore the following **alternate finance scenarios** for further practice or demonstration. These can be used if you have extra time or want to tailor the session to specific interests (e.g., reviewing financial performance or compliance tasks). Each scenario is independent and highlights different Copilot capabilities in Finance contexts. They follow a similar format: using the **Researcher agent** for document/context summaries and the **Analyst agent** for data analysis.
