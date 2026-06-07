@@ -46,6 +46,8 @@ Use the **Researcher** agent to gather **external industry context** relevant to
 
 4. **Observe the Response:** The Researcher agent should return a summary of **3 current macro-level trends** (e.g., inflation rates, interest rate changes, economic forecasts) relevant to budgeting, each with a brief explanation and source citations. *(If prompted to narrow the search focus by industry, region, or sources, provide appropriate input and continue.)*
 
+---
+
 ### Exercise 2 — Refine Insights for Budget Impact (Researcher Agent, Follow-up)
 
 Use the **Researcher** agent to refine the results and focus on **budget-specific impacts**.
@@ -63,6 +65,8 @@ Use the **Researcher** agent to refine the results and focus on **budget-specifi
    ```
 
 3. **Observe the Response:** The Researcher agent refines the context to focus specifically on **how those trends impact corporate budgeting**, and likely provides some examples or statistics regarding **cost forecasting impacts**. The answer should be a concise list (or short paragraphs) with relevant details, preparing you for the next step of analyzing company data.
+
+---
 
 ### Exercise 3 — Forecast Expenses from Historical Data (Analyst Agent)
 
@@ -86,6 +90,8 @@ Use the **Analyst** agent with an Excel dataset to perform a **forecast** based 
 
    *Trainer Tip:* If the Analyst agent doesn’t automatically provide a visual, you can verbally describe the expected trend or optionally switch to Excel and use **Copilot in Excel** to generate a chart. However, the key is demonstrating the **AI-driven analysis** and trend identification, not the specific chart itself.
 
+---
+
 ### Exercise 4 — Summarize Key Forecast Insights (Analyst Agent, Follow-up)
 
 Have the **Analyst** agent provide a concise **summary insight** from the forecast results.
@@ -103,6 +109,8 @@ Have the **Analyst** agent provide a concise **summary insight** from the foreca
    ```
 
 3. **Observe the Response:** The Analyst agent will distill the forecasted data into a **brief summary**, highlighting the overall trend in quarterly expenses (for example, steady growth or seasonal patterns) and any notable spikes or variations in specific quarters. This demonstrates how Copilot can help translate data into key insights for decision-makers.
+
+ ---
 
 ### Exercise 5 — Create a Custom Budget Assistant Agent (“BudgetBuddy”)
 
@@ -128,6 +136,8 @@ Use **Copilot Agent Builder** to create a custom **“BudgetBuddy”** agent tha
 4. Switch to the **Configure** (Knowledge) tab. **Add a knowledge source** – attach **Budgeting\_Guidelines.pdf** from the `assets` folder as the agent’s content. (This document contains Contoso’s budgeting process and policies to ground the agent’s answers.)
 
 5. Save and **Create** the agent.
+
+---
 
 ### Exercise 6 — Use the “BudgetBuddy” Agent for Q\&A
 
